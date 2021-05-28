@@ -109,8 +109,9 @@ header{
 }
 .imagem img {
     width: 300px;
+}
 
-.texto{
+.texto {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,6 +121,7 @@ header{
     font-family: "Poppins";
     padding: 20px 100px;
 }
+
 .texto h1{
     padding-top: 10px;
     padding-bottom: 10px;
