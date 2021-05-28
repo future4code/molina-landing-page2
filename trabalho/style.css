@@ -229,11 +229,11 @@ font-family: "Poppins";
 #contatos {
 
 background-color: #ddd;
-  background-color: #ddd;
 }
 
 #contato {
     display: flex;
+    flex-direction: row;
     text-align: justify center;
     padding: 50px;
     background-color: #ddd;
@@ -269,6 +269,9 @@ main{
     padding: 60px;
     font-family: "Poppins", sans-serif;
 
+}
+#main {
+    background-color: #ddd;
 }
 
 img {
@@ -317,6 +320,53 @@ button{
     text-align: center;
     
 }
+
+@media screen and (max-width:780px) {
+    #contato {
+        flex-direction: column;
+        padding: 0%;
+    }
+    #main {
+        padding: 0;
+        background-color: #ddd;
+
+    }
+    .img {
+        width: 250px;
+        display: flex;
+        margin-left: 90px;
+    }
+    #contato h1 {
+        margin-left: 30px;
+    }
+
+    .paragrafo {
+        text-align: justify;
+        margin: 20px;
+    }
+    strong {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    #mensagem {
+        margin-top: 20px;
+        padding: 1%;
+        background-color: #ddd;
+    }
+    input {
+        width: 300px;
+    }
+    textarea {
+        width: 300px;
+    }
+    #contato button {
+        display: flex;
+        margin-bottom: 5px;
+    }
+}
+
+
 
 
 
