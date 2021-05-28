@@ -104,13 +104,11 @@ header{
 
 /* Main texto do corpo */
 
-#sobre{
-    display: flex;
+.imagem {
+    padding: 150px;
 }
 .imagem img {
     width: 300px;
-    display: flex;
-}
 
 .texto{
     display: flex;
@@ -119,7 +117,8 @@ header{
     text-align: center;
     flex-flow: column;
     /* background-color: antiquewhite; */
-   /* font-family: "Poppins";*/
+    font-family: "Poppins";
+    padding: 20px 100px;
 }
 .texto h1{
     padding-top: 10px;
@@ -182,9 +181,10 @@ font-family: "Poppins";
 }
 
 #contatos {
-background-color: #ddd;
-}
 
+background-color: #ddd;
+  background-color: #ddd;
+}
 
 #contato {
     display: flex;
