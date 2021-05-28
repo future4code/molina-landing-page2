@@ -154,7 +154,8 @@ header{
 }
 .produtos-flex {
     display: flex;
-    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 .quadrado {
     justify-content: space-evenly;
@@ -170,6 +171,7 @@ header{
     border-radius: 4px;
     background-color: #fff;
     margin: 10px;
+    
 }
 
 
