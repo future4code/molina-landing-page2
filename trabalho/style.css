@@ -104,13 +104,11 @@ header{
 
 /* Main texto do corpo */
 
-#sobre{
-    display: flex;
+.imagem {
+    padding: 150px;
 }
 .imagem img {
     width: 300px;
-    display: flex;
-}
 
 .texto{
     display: flex;
@@ -120,6 +118,7 @@ header{
     flex-flow: column;
     /* background-color: antiquewhite; */
     font-family: "Poppins";
+    padding: 20px 100px;
 }
 .texto h1{
     padding-top: 10px;
@@ -182,9 +181,10 @@ font-family: "Poppins";
 }
 
 #contatos {
-background-color: #ddd;
-}
 
+background-color: #ddd;
+  background-color: #ddd;
+}
 
 #contato {
     display: flex;
@@ -338,6 +338,7 @@ button{
        padding-top: 10px;
        height: 80%;
        width: 80%;  }
+       
        /*parte de contato*/
        
        #contatos{
@@ -360,7 +361,8 @@ button{
             text-align: center;
         }
 }
-/*@media screen and (min-device-width: 421px) and (max-device-width:800px){
+/*
+@media screen and (min-device-width: 421px) and (max-device-width:800px){
     header{
         height: 100px;
         display: flex;
@@ -378,6 +380,7 @@ button{
        display: flex;
        flex-flow: column;
        padding-bottom: 8px;
-   } ate aqui fui bem*/ 
+   } ate aqui fui bem
+   */ 
   
 
