@@ -360,10 +360,7 @@ button{
         display: flex;
         justify-content: center;
     }
-    #logo img {
-       height: 80%;
-       width: 80%;
-   }
+    
    .navegacao{
        display: flex;
    }
@@ -377,15 +374,17 @@ button{
        flex-direction: column;
        height: fit-content;
        justify-content: center;
+       text-align: center;
    }
    .imagem{
        display: flex;
        justify-content: center;
+       padding: 10px;
    }
    .imagem img{
        padding-top: 10px;
-       height: 80%;
-       width: 80%;  }
+       height: 50%;
+       width: 50%;  }
        
        /*parte de contato*/
        
