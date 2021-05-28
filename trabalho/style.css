@@ -386,6 +386,9 @@ button{
        height: 50%;
        width: 50%;  }
        
+    .texto{
+        padding: 10px;
+    }
        /*parte de contato*/
        
        #contatos{
