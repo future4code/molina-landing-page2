@@ -316,6 +316,7 @@ button{
        padding-top: 10px;
        height: 80%;
        width: 80%;  }
+       
        /*parte de contato*/
        
        #contatos{
@@ -338,7 +339,8 @@ button{
             text-align: center;
         }
 }
-/*@media screen and (min-device-width: 421px) and (max-device-width:800px){
+/*
+@media screen and (min-device-width: 421px) and (max-device-width:800px){
     header{
         height: 100px;
         display: flex;
@@ -356,6 +358,7 @@ button{
        display: flex;
        flex-flow: column;
        padding-bottom: 8px;
-   } ate aqui fui bem*/ 
+   } ate aqui fui bem
+   */ 
   
-}
+
