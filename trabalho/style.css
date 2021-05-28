@@ -119,7 +119,7 @@ header{
     text-align: center;
     flex-flow: column;
     /* background-color: antiquewhite; */
-    font-family: "Poppins";
+   /* font-family: "Poppins";*/
 }
 .texto h1{
     padding-top: 10px;
