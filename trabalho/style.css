@@ -111,7 +111,7 @@ header{
     width: 300px;
 }
 
-.texto{
+.texto {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,6 +121,7 @@ header{
     font-family: "Poppins";
     padding: 20px 100px;
 }
+
 .texto h1{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -228,9 +229,10 @@ font-family: "Poppins";
 }
 
 #contatos {
-background-color: #ddd;
-}
 
+background-color: #ddd;
+  background-color: #ddd;
+}
 
 #contato {
     display: flex;
@@ -305,6 +307,29 @@ button{
     font-weight: 700!important;
     color: #000000;
 }
+/* produtos */
+.produtos{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+.produtos h1{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 
@@ -325,24 +350,76 @@ button{
     justify-content: space-evenly;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width:420px){
-    header{
+@media screen and (min-device-width: 320px) and (max-device-width:800px){
+    header {
         display: flex;
-        flex-flow: column;
+        flex-direction: column;
         height: fit-content;
     }
-    #logo img {
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+    
+   .navegacao{
        display: flex;
-       flex-flow: column;
-       height: 100%;
-       width: 100%;
    }
    .navegacao ul li {
        display: flex;
        flex-flow: column;
        padding-bottom: 8px;
    }
+   #sobre{
+       display: flex;
+       flex-direction: column;
+       height: fit-content;
+       justify-content: center;
+       text-align: center;
+   }
+   .imagem{
+       display: flex;
+       justify-content: center;
+       padding: 10px;
+   }
+   .imagem img{
+       padding-top: 10px;
+       height: 50%;
+       width: 50%;  }
+       
+    .texto{
+        padding: 10px;
+    }
+    #produtos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;}
+     .produtos-flex{
+            display: flex;
+            flex-direction: column;
+     }
+       /*parte de contato*/
+       
+       #contatos{
+        display: flex;
+        flex-direction: column;}
+    
+        .img{
+            display: flex;
+            flex-direction: column;
+        }
+        .img img{
+            height: 100%;
+            width: fit-content;
+        }
+        #esse-texto{
+            display: flex;
+            flex-direction: column;
+        }
+        #esse-texto h1{
+            text-align: center;
+        }
 }
+/*
 @media screen and (min-device-width: 421px) and (max-device-width:800px){
     header{
         height: 100px;
@@ -361,5 +438,7 @@ button{
        display: flex;
        flex-flow: column;
        padding-bottom: 8px;
-   }
-}
+   } ate aqui fui bem
+   */ 
+  
+
