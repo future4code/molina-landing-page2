@@ -1,0 +1,492 @@
+/* Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden
+}
+
+/* Sobre nós */
+
+#sobre {
+    display: flex;
+    background-color: #ddd;
+}
+
+/* Cabeçalho */
+
+header{
+    height: 80px;
+    width: 100%;
+    display:flex;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#logo img{
+    height: 70px;
+    width: 180px;
+    object-fit: cover
+}
+.navegacao{
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+}
+.navegacao ul {
+    display: flex;
+}
+.navegacao ul li {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    padding-right: 10px;
+    align-items: center;
+}
+.navegacao ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Slider */
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left:0;
+    animation: 20s slider infinite;
+    height: 600px;
+}
+#slider figure img {
+    width:20%;
+    float: left;
+    height: 100%;
+    object-fit: cover;
+}
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left:-100%;
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left:-200%
+    }
+    75%{
+        left:-300%
+    }
+    95%{
+        left: -300%
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+/* Main texto do corpo */
+
+.imagem {
+    padding: 150px;
+}
+.imagem img {
+    width: 300px;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+    /* background-color: antiquewhite; */
+    font-family: "Poppins";
+    padding: 20px 100px;
+}
+
+.texto h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+}
+
+.texto p {
+    text-align: justify;
+    padding: 20px 20px;
+    font-size: 19px;
+}
+/* Para voce */
+
+#produtos h1 {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+}
+
+.para-voce {
+    width: 50px;
+    display: flex;
+
+}
+#produtos {
+    display: flex;
+    flex-direction: column;
+
+}
+.produtos-flex {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.quadrado {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 0px 2px 8px -2px rgba(34, 34, 34, 0.4);
+    -moz-box-shadow: 0px 2px 8px -2px rgba(34, 34, 34, 0.4);
+    box-shadow: 0px 2px 8px -2px rgba(34, 34, 34, 0.4);
+    border: 1px solid #767676;
+    padding: 0.7rem 0.9rem;
+    min-height: 8rem;
+    border-radius: 4px;
+    background-color: #fff;
+    margin: 10px;
+    
+}
+
+
+
+#produtos h5 {
+    display: flex;
+}
+
+
+
+/* Body */
+
+#trabalhe {
+font-family: "Poppins";
+    text-align: center;
+    padding: 100px 85px;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#3b3937,rgb(43, 42, 41));
+    color: #fff;
+}
+
+#trabalhe h1 {
+    color: #ffffff;
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+}
+#trabalhe h3 {
+    color: rgb(236, 233, 233);
+}
+
+#trabalhe p  {
+    color: rgb(255, 255, 255);
+}
+
+#trabalhe button {
+    width: 100%;
+    border-radius: 10px #ddd;
+    color: black;
+    background-color: #eee;
+    margin-top: 30px;
+}
+.lado h1, span {
+    font-weight: 700!important;
+    color: #000000;
+
+}
+
+.paragrafo {
+    margin: 10px 0 20px 0;
+    text-align: justify;
+    color:rgb(75, 69, 69) ;
+}
+
+#contatos {
+
+background-color: #ddd;
+}
+
+#contato {
+    display: flex;
+    flex-direction: row;
+    text-align: justify center;
+    padding: 50px;
+    background-color: #ddd;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(163, 100, 48);
+}
+
+
+input {
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    height: 38px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+
+textarea{
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    height: 80px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+
+main{
+    padding: 60px;
+    font-family: "Poppins", sans-serif;
+
+}
+#main {
+    background-color: #ddd;
+}
+
+img {
+    width: 500px;
+    float: left;
+}
+
+.label {
+    
+    font-weight: 700!important;
+    display: block;
+    text-align: center;
+}
+.label::after {
+    content: " * ";
+    color: red;
+}
+button{
+    display: grid;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 1em;
+    padding: 10px 15px;
+    margin: auto;
+}
+
+#mensagem {
+    clear: auto;
+}
+
+#mensagem h1 {
+    text-align: center;
+    font-weight: 700!important;
+    color: #000000;
+}
+/* produtos */
+.produtos{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+.produtos h1{
+    text-align: center;
+    
+}
+
+@media screen and (max-width:780px) {
+    #contato {
+        flex-direction: column;
+        padding: 0%;
+    }
+    #main {
+        padding: 0;
+        background-color: #ddd;
+
+    }
+    .img {
+        width: 250px;
+        display: flex;
+        margin-left: 90px;
+    }
+    #contato h1 {
+        margin-left: 30px;
+    }
+
+    .paragrafo {
+        text-align: justify;
+        margin: 20px;
+    }
+    strong {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    #mensagem {
+        margin-top: 20px;
+        padding: 1%;
+        background-color: #ddd;
+    }
+    input {
+        width: 300px;
+    }
+    textarea {
+        width: 300px;
+    }
+    #contato button {
+        display: flex;
+        margin-bottom: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    height: 60px;
+    width: 100%;
+    bottom: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer nav {
+    width: 40%;
+}
+.footer nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width:800px){
+    header {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+    
+   .navegacao{
+       display: flex;
+   }
+   .navegacao ul li {
+       display: flex;
+       flex-flow: column;
+       padding-bottom: 8px;
+   }
+   #sobre{
+       display: flex;
+       flex-direction: column;
+       height: fit-content;
+       justify-content: center;
+       text-align: center;
+   }
+   .imagem{
+       display: flex;
+       justify-content: center;
+       padding: 10px;
+   }
+   .imagem img{
+       padding-top: 10px;
+       height: 50%;
+       width: 50%;  }
+       
+    .texto{
+        padding: 10px;
+    }
+    #produtos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;}
+     .produtos-flex{
+            display: flex;
+            flex-direction: column;
+     }
+       /*parte de contato*/
+       
+       #contatos{
+        display: flex;
+        flex-direction: column;}
+    
+        .img{
+            display: flex;
+            flex-direction: column;
+        }
+        .img img{
+            height: 100%;
+            width: fit-content;
+        }
+        #esse-texto{
+            display: flex;
+            flex-direction: column;
+        }
+        #esse-texto h1{
+            text-align: center;
+        }
+}
+/*
+@media screen and (min-device-width: 421px) and (max-device-width:800px){
+    header{
+        height: 100px;
+        display: flex;
+        flex-flow: column;
+    }
+    #logo{
+        margin: 0 auto;
+    }
+    #logo img {
+       height: 60px;
+       width: 150px;
+       text-align: center;
+   }
+   .navegacao ul li {
+       display: flex;
+       flex-flow: column;
+       padding-bottom: 8px;
+   } ate aqui fui bem
+   */ 
+  
+
